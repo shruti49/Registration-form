@@ -1,15 +1,19 @@
 
 
+.container {
+    width: 600px;
+    border-color: white;
+    /*background-color:  #89CFF0;*/
+    background-image:url("http://www.designbolts.com/wp-content/uploads/2014/03/Light-HD-Background1.jpg"); 
+}
+
 img {
     width: 70px;
     height: 50px;
     border-radius: 50%;
 }
 
-.container {
-    width: 600px;
-    background-color:  #89CFF0;
-}
+
 
 h3, label, p{
     color: #ee1616;
