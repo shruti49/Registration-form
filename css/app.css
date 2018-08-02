@@ -1,10 +1,5 @@
-
-
 .container {
-    width: 600px;
-    border-color: white;
-    /*background-color:  #89CFF0;*/
-    background-image:url("http://www.designbolts.com/wp-content/uploads/2014/03/Light-HD-Background1.jpg"); 
+    background-color: #89CFF0;
 }
 
 img {
@@ -13,9 +8,20 @@ img {
     border-radius: 50%;
 }
 
-
-
-h3, label, p{
+h3,
+label,
+p {
     color: #ee1616;
 }
 
+@media (min-width: 628px){
+.container {
+    max-width: 600px;
+}
+}
+
+@media (min-width:350px) and (max-width: 576px){
+    .container {
+        max-width: 500px;
+    }
+    }
